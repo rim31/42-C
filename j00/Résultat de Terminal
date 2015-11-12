@@ -1,0 +1,187 @@
+Last login: Sun Oct 25 22:42:47 on ttys000
+MacBook-Air-de-Rim:~ rims$ ls-f
+-bash: ls-f: command not found
+MacBook-Air-de-Rim:~ rims$ ls -f
+.			.local			Desktop
+..			.mailcap		Documents
+.bash_history		.mime.types		Downloads
+.bash_sessions		.profile		Library
+.cache			.rnd			Movies
+.CFUserTextEncoding	.subversion		Music
+.config			.Trash			Pictures
+.cups			.viminfo		Public
+.DS_Store		.Xauthority
+.ganttproject		Applications
+MacBook-Air-de-Rim:~ rims$ df -h
+Filesystem      Size   Used  Avail Capacity  iused   ifree %iused  Mounted on
+/dev/disk1     112Gi  104Gi  7.4Gi    94% 27389296 1932430   93%   /
+devfs          179Ki  179Ki    0Bi   100%      618       0  100%   /dev
+map -hosts       0Bi    0Bi    0Bi   100%        0       0  100%   /net
+map auto_home    0Bi    0Bi    0Bi   100%        0       0  100%   /home
+MacBook-Air-de-Rim:~ rims$ df -u
+df: illegal option -- u
+usage: df [-b | -H | -h | -k | -m | -g | -P] [-ailn] [-T type] [-t] [filesystem ...]
+MacBook-Air-de-Rim:~ rims$ df 
+Filesystem    512-blocks      Used Available Capacity  iused   ifree %iused  Mounted on
+/dev/disk1     234573824 218602512  15459312    94% 27389312 1932414   93%   /
+devfs                357       357         0   100%      618       0  100%   /dev
+map -hosts             0         0         0   100%        0       0  100%   /net
+map auto_home          0         0         0   100%        0       0  100%   /home
+MacBook-Air-de-Rim:~ rims$ 
+
+
+
+  [Restauré 25 oct. 2015 23:14:08]
+Last login: Sun Oct 25 22:44:30 on ttys000
+Restored session: Dim 25 oct 2015 23:13:39 CET
+MacBook-Air-de-Rim:~ rims$ df -h
+Filesystem      Size   Used  Avail Capacity  iused   ifree %iused  Mounted on
+/dev/disk1     112Gi  104Gi  7.4Gi    94% 27388767 1932959   93%   /
+devfs          181Ki  181Ki    0Bi   100%      626       0  100%   /dev
+map -hosts       0Bi    0Bi    0Bi   100%        0       0  100%   /net
+map auto_home    0Bi    0Bi    0Bi   100%        0       0  100%   /home
+/dev/disk2s1   966Mi  920Mi   46Mi    96%        0       0  100%   /Volumes/ONIZUKA
+MacBook-Air-de-Rim:~ rims$ ls -l
+total 0
+drwx------@   5 rims  staff   170 12 déc  2014 Applications
+drwx------@  34 rims  staff  1156 25 oct 02:15 Desktop
+drwx------@  17 rims  staff   578 17 sep 11:43 Documents
+drwx------@ 126 rims  staff  4284 25 oct 02:25 Downloads
+drwx------@  63 rims  staff  2142  1 jan  2015 Library
+drwx------@  15 rims  staff   510 21 oct 13:34 Movies
+drwx------@  27 rims  staff   918 30 aoû 20:05 Music
+drwx------@  74 rims  staff  2516  9 oct 11:27 Pictures
+drwxr-xr-x@   7 rims  staff   238 26 nov  2014 Public
+MacBook-Air-de-Rim:~ rims$ ls
+Applications	Downloads	Music
+Desktop		Library		Pictures
+Documents	Movies		Public
+MacBook-Air-de-Rim:~ rims$ df 
+Filesystem    512-blocks      Used Available Capacity  iused   ifree %iused  Mounted on
+/dev/disk1     234573824 218598032  15463792    94% 27388752 1932974   93%   /
+devfs                361       361         0   100%      626       0  100%   /dev
+map -hosts             0         0         0   100%        0       0  100%   /net
+map auto_home          0         0         0   100%        0       0  100%   /home
+/dev/disk2s1     1978880   1884712     94168    96%        0       0  100%   /Volumes/ONIZUKA
+MacBook-Air-de-Rim:~ rims$ cd /dev/desk1
+-bash: cd: /dev/desk1: No such file or directory
+MacBook-Air-de-Rim:~ rims$ cd /dev/desk2s1
+-bash: cd: /dev/desk2s1: No such file or directory
+MacBook-Air-de-Rim:~ rims$ ls
+Applications	Downloads	Music
+Desktop		Library		Pictures
+Documents	Movies		Public
+MacBook-Air-de-Rim:~ rims$ cd ..
+MacBook-Air-de-Rim:Users rims$ ls
+Shared	rims
+MacBook-Air-de-Rim:Users rims$ cd rims
+MacBook-Air-de-Rim:~ rims$ ls
+Applications	Downloads	Music
+Desktop		Library		Pictures
+Documents	Movies		Public
+MacBook-Air-de-Rim:~ rims$ ls
+Applications	Downloads	Music
+Desktop		Library		Pictures
+Documents	Movies		Public
+MacBook-Air-de-Rim:~ rims$ 
+  [Restauré 29 oct. 2015 08:52:38]
+Last login: Thu Oct 29 07:38:48 on console
+Restored session: Dim 25 oct 2015 23:19:52 CET
+Air-de-Rim:~ rims$ ls
+Applications	Downloads	Music
+Desktop		Library		Pictures
+Documents	Movies		Public
+Air-de-Rim:~ rims$ cd /dev/desk2s1
+-bash: cd: /dev/desk2s1: No such file or directory
+Air-de-Rim:~ rims$ clear
+
+Air-de-Rim:~ rims$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Air-de-Rim:~ rims$ ./print_groups.sh
+-bash: ./print_groups.sh: No such file or directory
+Air-de-Rim:~ rims$ man groups
+
+[1]+  Stopped                 man groups
+Air-de-Rim:~ rims$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Air-de-Rim:~ rims$ mk 42
+-bash: mk: command not found
+Air-de-Rim:~ rims$ mkdir 42
+Air-de-Rim:~ rims$ cd 42
+Air-de-Rim:42 rims$ ls
+Air-de-Rim:42 rims$ mkdir j00
+Air-de-Rim:42 rims$ cd j00
+Air-de-Rim:j00 rims$ ls
+Air-de-Rim:j00 rims$ vim find_sh.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ls -la | find ".sh"
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+~                                                                                            
+

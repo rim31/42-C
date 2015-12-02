@@ -10,9 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
-void	ft_putchar(char c);
-void	ft_putstr(char *str);
-void	ft_memset(
+#include "../libft.h"
+//#include <stdio.h>
+
+int main(int ac, char ** av)
+{
+	if (ac == 4)
+	{
+
+		printf("%s", ft_memset(av[1], atoi(av[2]), atoi(av[3])));
+		printf("\n%s %d %d\n", av[1], atoi(av[2]), atoi(av[3]));
+		printf("%s", memset(av[1], atoi(av[2]), atoi(av[3])));
+	}
+	return (0);
+}
 
